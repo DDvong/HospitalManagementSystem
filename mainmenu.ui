@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainMenu</class>
+ <widget class="QWidget" name="MainMenu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>673</width>
+    <height>568</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>100</y>
+     <width>151</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LayoutDirection::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: transparent;
+    border: 2px solid #CCCCCC;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+    
+    layout-direction: top-to-bottom;
+    layout-spacing: 10px;
+    text-align: bottom;
+}
+QPushButton:hover {
+    border-color: #999999;
+}
+QPushButton:pressed {
+    border-color: #666666;
+}</string>
+   </property>
+   <property name="text">
+    <string>Patients</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>20</width>
+     <height>20</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>10</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Hospital System</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="appointmentButton">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>260</y>
+     <width>151</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: transparent;
+    border: 2px solid #CCCCCC;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+    
+   
+    layout-direction: top-to-bottom;
+    layout-spacing: 10px;
+    
+    
+    text-align: bottom;
+}
+QPushButton:hover {
+    border-color: #999999;
+}
+QPushButton:pressed {
+    border-color: #666666;
+}</string>
+   </property>
+   <property name="text">
+    <string>Appointment</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>60</y>
+     <width>821</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(182, 179, 165);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="reportButton">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>410</y>
+     <width>151</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: transparent;
+    border: 2px solid #CCCCCC;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+    
+   
+    layout-direction: top-to-bottom;
+    layout-spacing: 10px;
+    
+   
+    text-align: bottom;
+}
+QPushButton:hover {
+    border-color: #999999;
+}
+QPushButton:pressed {
+    border-color: #666666;
+}</string>
+   </property>
+   <property name="text">
+    <string>Report</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="signOutButton">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>410</y>
+     <width>151</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: transparent;
+    border: 2px solid #CCCCCC;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+    
+    
+    layout-direction: top-to-bottom;
+    layout-spacing: 10px;
+    
+    text-align: bottom;
+}
+QPushButton:hover {
+    border-color: #999999;
+}
+QPushButton:pressed {
+    border-color: #666666;
+}</string>
+   </property>
+   <property name="text">
+    <string>Sign Out</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="departmentButton">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>100</y>
+     <width>151</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: transparent;
+    border: 2px solid #CCCCCC;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+    
+    
+    layout-direction: top-to-bottom;
+    layout-spacing: 10px;
+    
+    
+    text-align: bottom;
+}
+QPushButton:hover {
+    border-color: #999999;
+}
+QPushButton:pressed {
+    border-color: #666666;
+}</string>
+   </property>
+   <property name="text">
+    <string>Department</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="referralButton">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>260</y>
+     <width>151</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: transparent;
+    border: 2px solid #CCCCCC;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+    
+    
+    layout-direction: top-to-bottom;
+    layout-spacing: 10px;
+    
+    
+    text-align: bottom;
+}
+QPushButton:hover {
+    border-color: #999999;
+}
+QPushButton:pressed {
+    border-color: #666666;
+}</string>
+   </property>
+   <property name="text">
+    <string>Referrals</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="patientPic">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>110</y>
+     <width>71</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="appointmentPic">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>280</y>
+     <width>51</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="reportPic">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>430</y>
+     <width>51</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="departmentPic">
+   <property name="geometry">
+    <rect>
+     <x>472</x>
+     <y>110</y>
+     <width>71</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="referralPic">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>270</y>
+     <width>81</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>420</y>
+     <width>71</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

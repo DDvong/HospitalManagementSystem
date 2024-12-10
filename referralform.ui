@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ReferralForm</class>
+ <widget class="QWidget" name="ReferralForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>958</width>
+    <height>573</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>20</y>
+     <width>421</width>
+     <height>521</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Doctor Referral</string>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Doctor:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>Specialty:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0" colspan="7">
+     <widget class="QTextEdit" name="referralDisplay"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QPushButton" name="referralBackButton">
+      <property name="text">
+       <string>Back</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="6">
+     <widget class="QPushButton" name="addDoctorButton">
+      <property name="text">
+       <string>Add Doctor</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="6">
+     <widget class="QPushButton" name="pushButton">
+      <property name="text">
+       <string>Add Referral</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="6">
+     <widget class="QPushButton" name="viewButton">
+      <property name="text">
+       <string>View</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>From Doctor:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1" colspan="5">
+     <widget class="QLineEdit" name="doctorNameEdit"/>
+    </item>
+    <item row="1" column="1" colspan="5">
+     <widget class="QLineEdit" name="specialtyEdit"/>
+    </item>
+    <item row="2" column="1" colspan="5">
+     <widget class="QLineEdit" name="fromDoctorEdit"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>To Doctor:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1" colspan="5">
+     <widget class="QLineEdit" name="toDoctorEdit"/>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

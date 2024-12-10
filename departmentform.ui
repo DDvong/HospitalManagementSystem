@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DepartmentForm</class>
+ <widget class="QWidget" name="DepartmentForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>302</width>
+    <height>321</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>0</y>
+     <width>284</width>
+     <height>314</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Departments</string>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="2" colspan="2">
+     <widget class="QLineEdit" name="departmentEdit"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QPushButton" name="addDeptButton">
+      <property name="text">
+       <string>Add</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1" colspan="2">
+     <widget class="QPushButton" name="viewDeptButton">
+      <property name="text">
+       <string>View</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0" colspan="2">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Deparment Name:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="3">
+     <widget class="QPushButton" name="deptBackButton">
+      <property name="text">
+       <string>Back</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0" colspan="4">
+     <widget class="QTextEdit" name="deptDisplay"/>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
